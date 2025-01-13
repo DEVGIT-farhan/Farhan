@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Farhan-2048(test)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title-section">
+                <h1>Farhan-2048</h1>
+                <p class="subtitle">(test)</p>
+            </div>
+            <div class="info-section">
+                <div class="score-container">
+                    <div class="score-label">Score</div>
+                    <div id="score">0</div>
+                </div>
+                <div class="best-container">
+                    <div class="score-label">Best</div>
+                    <div id="best">0</div>
+                </div>
+            </div>
+            <button id="new-game" aria-label="New Game">New Game</button>
+        </div>
+        <div id="game-board" class="game-board" role="grid" aria-label="Farhan-2048 game board"></div>
+        <div class="controls-hint">
+            <p class="desktop-hint">Use arrow keys or WASD to move tiles</p>
+            <p class="mobile-hint">Swipe to move tiles</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
